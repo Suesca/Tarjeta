@@ -16,18 +16,7 @@ input {
 }
 
 body {
-  background-image: url(../img/background.jpg);
-  background-position: fixed;
-  background-repeat: no-repeat;
-}
-
-#header {
-  text-align: center;
-  font-size: bold;
-}
-
-#header h1 {
-  color: white;
+  background-color: #ffffff;
 }
 
 #main {
@@ -35,11 +24,12 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 5%;
-  background-color: #b0dcd4;
+  background-color: #fafaf9;
   margin: 0px auto;
   padding-bottom: 10px;
   margin-top: 10px;
   width: 45%;
+  box-shadow: 5px 5px 10px rgba(17, 23, 41, 0.05);
 }
 
 #main #card {
@@ -82,5 +72,5 @@ body {
 
 #main p {
   text-align: left;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
