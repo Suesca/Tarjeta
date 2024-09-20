@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*@font-face {
+  font-family: Sora;
+  src: url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+}*/
+
+h1,
+h2,
+p,
+input {
+  font-family: Sora;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-position: fixed;
+  background-repeat: no-repeat;
+}
+
+#header {
+  text-align: center;
+  font-size: bold;
+}
+
+#header h1 {
+  color: white;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  background-color: #b0dcd4;
+  margin: 0px auto;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  width: 45%;
+}
+
+#main #card {
+  margin-top: auto;
+  border-radius: 1.5px;
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 5px;
+}
+
+#main #card img {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#main #card #card_button {
+  border-radius: 15px 15px 15px 15px;
+  background-color: #e6d6fc;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: none;
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+#main #card #card_button:hover {
+  background-color: #20293a;
+  color: white;
+  cursor: pointer;
+}
+
+#main h2 {
+  text-align: left;
+  font-size: bold;
+  margin-bottom: 30px;
+}
+
+#main p {
+  text-align: left;
+  margin-bottom: 15px;
+}
