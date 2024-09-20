@@ -68,9 +68,19 @@ body {
   text-align: left;
   font-size: bold;
   margin-bottom: 30px;
+  color: #20293a;
+}
+
+#main hr {
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: #e5eaf0;
+  height: 1px;
+  border: none;
 }
 
 #main p {
   text-align: left;
   margin-bottom: 30px;
+  color: #6c727f;
 }
